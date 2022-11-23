@@ -10,7 +10,7 @@
 
 # To Run with Docker
 	> mvn clean install
-	> docker build -t drones
+	> docker build -t drones .
 	> docker run -d -p 8282:8282 drones
 
 	> docker stop <image-name>
