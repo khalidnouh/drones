@@ -3,19 +3,19 @@
 	Just as the mobile phone allowed developing countries to leapfrog older technologies for personal communication,
 	the drone has the potential to leapfrog traditional transportation infrastructure.
 
-#To Run without Docker
+# To Run without Docker
 
 	> mvn clean install
 	> java -jar target/drones-0.0.1.jar
 
-#To Run with Docker
+# To Run with Docker
 	> mvn clean install
 	> docker build -t drones
 	> docker run -d -p 8282:8282 drones
 
 	> docker stop <image-name>
 
-#APIs Examples :
+# APIs Examples :
 
 # Get all registered drones API
 	> GET - http://localhost:8282/dispatchController/getAllDrones
